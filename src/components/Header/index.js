@@ -10,8 +10,8 @@ import logo from '../../assets/images/logo.svg';
 function Header({ cartSize }) {
   return (
     <Container>
-      <Link to="/ ">
-        <img src={logo} alt="RocketShoes"/>
+      <Link to="/">
+        <img src={logo} alt="RocketShoes" />
       </Link>
 
       <Cart to="/cart">
@@ -25,6 +25,6 @@ function Header({ cartSize }) {
   );
 }
 
-export default connect(state => ({
+export default connect((state) => ({
   cartSize: state.cart.length,
 }))(Header);

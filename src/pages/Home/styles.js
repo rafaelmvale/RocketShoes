@@ -20,10 +20,10 @@ export const ProductList = styled.ul`
     }
 
     > strong {
-       font-size: 16px;
-       line-height: 20px;
-       color: #333;
-       margin-top: 5px;
+      font-size: 16px;
+      line-height: 20px;
+      color: #333;
+      margin-top: 5px;
     }
 
     > span {
@@ -44,7 +44,7 @@ export const ProductList = styled.ul`
       align-items: center;
       transition: background 0.2s;
 
-      &:hover{
+      &:hover {
         background: ${darken(0.03, '#7159c1')};
       }
 
@@ -65,7 +65,4 @@ export const ProductList = styled.ul`
       }
     }
   }
-
-
-
 `;
